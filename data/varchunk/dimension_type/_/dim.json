@@ -12,7 +12,7 @@
     "fixed_time": 0,
     "logical_height": 384,
     "effects": "minecraft:the_end",
-    "infiniburn": "#openvoid:_/none",
+    "infiniburn": "#six:none",
     "min_y": -64,
     "height": 384,
     "monster_spawn_light_level": 0,
