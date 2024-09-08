@@ -1,4 +1,3 @@
 #> varchunk:uninstall
 
-scoreboard objectives remove -varchunk
-scoreboard objectives remove --varchunk
+execute in varchunk:dim run forceload remove all
