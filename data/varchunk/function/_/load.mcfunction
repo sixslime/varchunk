@@ -21,6 +21,4 @@ scoreboard objectives add -varchunk dummy
 scoreboard objectives add --varchunk dummy
 #scoreboard objectives add varchunk-scoreboard dummy
 
-# tick
-schedule clear varchunk:_/tick
-function varchunk:_/tick
+execute in varchunk:dim run forceload add 0 0
