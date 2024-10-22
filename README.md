@@ -13,7 +13,7 @@ By convention:
 - It should be assumed that any data within `varchunk:dim` can be arbitrarily changed at any time (i.e. all operations should be sub-tick/sub-scope).
 
 # Usage
-Perform any desired temporary block operations (sign parsing, container manipulation, etc.) with `execute in varchunk:dim...` instead of replacing a block in a gameplay-used dimension.
+Perform any desired temporary block operations (sign parsing, container manipulation, etc.) in `varchunk:dim` via `execute in` instead of using a gameplay-used dimension.
 
 ___
 
