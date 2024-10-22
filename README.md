@@ -10,7 +10,7 @@ VarChunk provides a single [minimal dimension](data/varchunk/dimension/dim.json)
 
 By convention:
 - The 0, 0 chunk is the **only** chunk allowed to be loaded in `varchunk:dim`, and **must** always be.
-- It should be assumed that any data within `varchunk:dim` can be arbitrarily changed at any time (i.e. all operations should be sub-tick/scope).
+- It should be assumed that any data within `varchunk:dim` can be arbitrarily changed at any time (i.e. all operations should be sub-tick/sub-scope).
 ___
 
 <p align="center">
