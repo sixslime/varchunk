@@ -5,7 +5,7 @@
 ## Dependencies
 - [load](https://github.com/sixslime/load)
 
-## Overview
+# Overview
 VarChunk provides a single [minimal dimension](data/varchunk/dimension/dim.json), `varchunk:dim`, and forceloads the chunk at 0, 0 in that dimension.
 
 By convention:
