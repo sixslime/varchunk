@@ -6,8 +6,7 @@
 - [load](https://github.com/sixslime/load)
 
 # Usage
-VarChunk simply provides a single minimal dimension, `varchunk:dim`, and forceloads the chunk at 0, 0 in that dimension. \
-(See [the dimension type](data/varchunk/dimension_type/_/dim.json) for more details). 
+VarChunk simply provides a single [minimal dimension](data/varchunk/dimension/dim.json), `varchunk:dim`, and forceloads the chunk at 0, 0 in that dimension.
 
 By convention:
 - The 0, 0 chunk is the **only** chunk allowed to be loaded in `varchunk:dim`, and **must** always be.
