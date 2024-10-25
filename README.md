@@ -6,15 +6,17 @@
 - [load](https://github.com/sixslime/load)
 
 # Overview
-VarChunk provides a single [minimal dimension](data/varchunk/dimension/dim.json), `varchunk:dim`, and forceloads the chunk at 0, 0 in that dimension.
+VarChunk provides a single chunk in a minimal non-gameplay dimension. \
+This chunk is reserved for sub-tick in-world command operations, as to avoid doing such operations in gameplay-utilized dimensions.
 
-By convention:
+# Usage
+VarChunk provides [`varchunk:dim`](data/varchunk/dimension/dim.json), and forceloads the chunk at 0, 0 in that dimension.
+
+When utilizing `varchunk:dim`, the following must be respected:
 - The 0, 0 chunk is the **only** chunk allowed to be loaded in `varchunk:dim`, and **must** always be.
 - It should be assumed that any data within `varchunk:dim` can be arbitrarily changed at any time (i.e. all operations should be sub-tick/sub-scope).
 
-# Usage
-Perform any desired temporary block operations (sign parsing, container manipulation, etc.) in `varchunk:dim` via `execute in` instead of using a gameplay-utilized dimension.
-
+Otherwise, it may be used however desired.
 ___
 
 <p align="center">
