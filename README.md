@@ -6,8 +6,9 @@
 - [load](https://github.com/sixslime/load)
 
 # Overview
-VarChunk provides a single chunk in a minimal non-gameplay dimension. \
-This chunk is reserved for sub-tick in-world command operations, as to avoid doing such operations in gameplay-utilized dimensions.
+VarChunk provides a single chunk in a minimal non-gameplay dimension.
+
+This chunk is reserved for sub-tick command operations that require blocks/entities to avoid doing such operations in gameplay-utilized dimensions.
 
 # Usage
 VarChunk provides [`varchunk:dim`](data/varchunk/dimension/dim.json), and forceloads the chunk at 0, 0 in that dimension.
