@@ -13,11 +13,10 @@ This chunk is reserved for sub-tick command operations that require blocks/entit
 # Usage
 VarChunk provides [`varchunk:dim`](data/varchunk/dimension/dim.json), and forceloads the chunk at 0, 0 in that dimension.
 
-When utilizing `varchunk:dim`, the following must be respected:
+Any pack can utilize `varchunk:dim` so long as:
 - The 0, 0 chunk is the **only** chunk allowed to be loaded in `varchunk:dim`, and **must** always be.
-- It should be assumed that any data within `varchunk:dim` can be arbitrarily changed at any time (i.e. all operations should be sub-tick/sub-scope).
+- It is assumed that any data within `varchunk:dim` can be arbitrarily changed at any time (i.e. all operations should be sub-tick/sub-scope).
 
-Otherwise, it may be used however desired.
 ___
 
 <p align="center">
