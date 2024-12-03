@@ -14,7 +14,7 @@ This chunk is reserved for sub-tick command operations that require blocks/entit
 VarChunk provides [`varchunk:dim`](data/varchunk/dimension/dim.json), and forceloads the chunk at 0, 0 in that dimension.
 
 This dimension can be utilized arbitrarily, however:
-- The 0, 0 chunk is the **only** chunk allowed to be loaded, and **must** always be.
+- The 0, 0 chunk is the **only** chunk allowed to be loaded, and **must** always stay forceloaded.
 - It must be assumed that any world data within the dimension (blocks/entites) can be lost or changed at any time (i.e. all operations should be sub-tick/sub-scope).
 
 ___
